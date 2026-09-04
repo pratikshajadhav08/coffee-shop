@@ -1,4 +1,4 @@
-# Ember & Oak — Coffee Shop Site
+# Beanro — Coffee Shop Site
 
 A warm, editorial coffee-shop website with a 3D hero model, an animated
 menu, a call-in ordering flow, and a light/dark theme — built with React
@@ -237,6 +237,8 @@ fallback rule there.
   (Catering, Wholesale) are `href="#"` placeholders.
 - No real online payment — ordering is "review cart → call the shop."
 - `public/coffee.glb` isn't included; the 3D cup won't render until you
-  add your own model there.#   c o f f e e - s h o p  
- #   c o f f e e - s h o p  
+  add your own model there.#   c o f f e e - s h o p 
  
+ #   c o f f e e - s h o p 
+ 
+ "# coffee-shop" 
