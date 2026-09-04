@@ -202,19 +202,36 @@ own 3D component or a static image if you don't have one.
 
 ---
 
-## Deployment
+### Deployment
+This is a standard Vite single-page application.
 
-The site is a standard Vite SPA (`npm run build` → static files in
-`dist/`), deployable anywhere that serves static files. Because it uses
-client-side routing (`/order`), the host needs to fall back to
-`index.html` for unknown paths — this repo already includes:
+Build the project with:
 
-- `public/_redirects` — for **Netlify**
-- `vercel.json` — for **Vercel**
+## npm run build
 
-Both platforms support "Import from GitHub" for automatic deploys on
-every push. If you're using a different host, add an equivalent SPA
-fallback rule there.
+The production files are generated inside:
+
+## dist/
+
+The project is configured for Vercel and Netlify SPA routing.
+
+### Vercel
+
+## Live Website:
+https://coffee-shop-two-brown.vercel.app/
+
+## GitHub
+
+## Source Code:
+https://github.com/pratikshajadhav08/coffee-shop
+
+### Customization
+--Shop phone & address: src/data/site.js
+--Menu items: src/data/menu.js
+--Gallery items: src/data/menu.js
+--Colors & themes: src/index.css
+--Page content: src/components/
+--Fonts: src/index.css
 
 ---
 
@@ -231,14 +248,10 @@ fallback rule there.
 
 ## Known limitations / still placeholder
 
-- Phone number and address in `src/data/site.js` are fictional —
-  update before going live.
-- Footer social links (Instagram, Journal) and some links
-  (Catering, Wholesale) are `href="#"` placeholders.
-- No real online payment — ordering is "review cart → call the shop."
-- `public/coffee.glb` isn't included; the 3D cup won't render until you
-  add your own model there.#   c o f f e e - s h o p 
- 
- #   c o f f e e - s h o p 
+-Phone number and address are fictional and should be updated before production use.
+-Some social/navigation links are placeholders.
+-There is no online payment system.
+-public/coffee.glb is not included in the repository. The 3D coffee cup requires the model file to be added manually.
+
  
  "# coffee-shop" 
