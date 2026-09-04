@@ -19,7 +19,7 @@ export function Navbar() {
   return (
     <nav className={`nav ${solid ? "solid" : ""}`}>
       <div className="nav-logo display">
-        Beanro<span><img src="src/assets/logo.png" alt="logo"></img></span>
+        Beanro<span><img src="public\logo.png" alt="logo"></img></span>
       </div>
 
       <div className="nav-links">
