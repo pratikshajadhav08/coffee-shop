@@ -5,7 +5,7 @@ import { SplitReveal } from "./ui/SplitReveal";
 import { FadeUp } from "./ui/FadeUp";
 import { MagneticButton } from "./ui/MagneticButton";
 import { CountUp } from "./ui/CountUp";
-import { Coffee } from "./coffee";
+import { Coffee } from "./Coffee";
 import { scrollToId } from "../utils/scroll";
 
 export function Hero() {
