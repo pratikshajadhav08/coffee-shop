@@ -271,6 +271,7 @@ html {
 }
 .hero-canvas canvas {
   pointer-events: auto;
+  cursor: grabbing;
 }
 @media (min-width: 900px) {
   .hero-canvas {
