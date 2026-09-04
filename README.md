@@ -238,4 +238,5 @@ fallback rule there.
 - No real online payment — ordering is "review cart → call the shop."
 - `public/coffee.glb` isn't included; the 3D cup won't render until you
   add your own model there.#   c o f f e e - s h o p  
+ #   c o f f e e - s h o p  
  
